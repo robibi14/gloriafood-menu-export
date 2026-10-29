@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Exports produits en local : ce sont les données de votre restaurant, ne les publiez pas.
+/export-gloriafood/
+/menu.json
+/menu.csv
+/menu-gloriafood-brut.json
+
+# Systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

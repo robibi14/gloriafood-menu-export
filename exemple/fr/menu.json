@@ -1,0 +1,160 @@
+{
+  "format": "gloriafood-menu-export/1",
+  "exported_at": "2026-10-29T12:24:50+00:00",
+  "exported_with": "gloriafood-menu-export/1.0.0 (+https://github.com/robibi14/gloriafood-menu-export)",
+  "restaurant_id": "11111111-2222-4333-8444-555555555555",
+  "menu_name": "Carte Pizzeria Exemple",
+  "currency": "EUR",
+  "decimals": 2,
+  "languages": [
+    "fr"
+  ],
+  "categories": [
+    {
+      "name": "Pizzas",
+      "description": "Pâte maison, cuisson au feu de bois.",
+      "options": [
+        {
+          "name": "Supplément",
+          "required": false,
+          "force_min": 0,
+          "force_max": 3,
+          "allow_quantity": false,
+          "choices": [
+            {
+              "name": "Mozzarella en plus",
+              "price": 1.5,
+              "default": false,
+              "out_of_stock": false
+            },
+            {
+              "name": "Champignons",
+              "price": 1.0,
+              "default": false,
+              "out_of_stock": false
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "Margherita",
+          "description": "Sauce tomate, mozzarella, basilic.",
+          "price": 9.5,
+          "picture": "https://example.com/photos/margherita.jpg",
+          "picture_hi_res": null,
+          "out_of_stock": false,
+          "options": [],
+          "sizes": [
+            {
+              "name": "Moyenne",
+              "price_supplement": 0.0,
+              "price_total": 9.5,
+              "default": true,
+              "options": []
+            },
+            {
+              "name": "Grande",
+              "price_supplement": 3.0,
+              "price_total": 12.5,
+              "default": false,
+              "options": [
+                {
+                  "name": "Bord",
+                  "required": false,
+                  "force_min": 0,
+                  "force_max": 1,
+                  "allow_quantity": false,
+                  "choices": [
+                    {
+                      "name": "Bord fromage",
+                      "price": 2.0,
+                      "default": false,
+                      "out_of_stock": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reine",
+          "description": "Sauce tomate, mozzarella, jambon, champignons frais.",
+          "price": 11.0,
+          "picture": "https://example.com/photos/reine.jpg",
+          "picture_hi_res": "https://example.com/photos/reine-grande.jpg",
+          "out_of_stock": false,
+          "options": [],
+          "sizes": []
+        }
+      ]
+    },
+    {
+      "name": "Boissons",
+      "description": "",
+      "options": [],
+      "items": [
+        {
+          "name": "Eau minérale 50 cl",
+          "description": "",
+          "price": 2.0,
+          "picture": null,
+          "picture_hi_res": null,
+          "out_of_stock": false,
+          "options": [],
+          "sizes": []
+        },
+        {
+          "name": "Limonade artisanale",
+          "description": "-30 % de sucre par rapport à une limonade classique.",
+          "price": 3.0,
+          "picture": null,
+          "picture_hi_res": null,
+          "out_of_stock": false,
+          "options": [
+            {
+              "name": "Parfum",
+              "required": true,
+              "force_min": 1,
+              "force_max": 1,
+              "allow_quantity": false,
+              "choices": [
+                {
+                  "name": "Citron",
+                  "price": 0.0,
+                  "default": true,
+                  "out_of_stock": false
+                },
+                {
+                  "name": "Grenadine",
+                  "price": 0.3,
+                  "default": false,
+                  "out_of_stock": false
+                }
+              ]
+            }
+          ],
+          "sizes": []
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "description": "",
+      "options": [],
+      "items": [
+        {
+          "name": "Tiramisu maison",
+          "description": "Mascarpone, café, cacao.",
+          "price": 5.5,
+          "picture": null,
+          "picture_hi_res": null,
+          "out_of_stock": true,
+          "options": [],
+          "sizes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿category,item,description,price,size,size_supplement,price_with_size,options,picture,out_of_stock
+Pizzas,Margherita,"Sauce tomate, mozzarella, basilic.",9.50,Moyenne,0.00,9.50,Supplément: Mozzarella en plus (+1.50); Champignons (+1.00),https://example.com/photos/margherita.jpg,no
+Pizzas,Margherita,"Sauce tomate, mozzarella, basilic.",9.50,Grande,3.00,12.50,Supplément: Mozzarella en plus (+1.50); Champignons (+1.00) | Bord: Bord fromage (+2.00),https://example.com/photos/margherita.jpg,no
+Pizzas,Reine,"Sauce tomate, mozzarella, jambon, champignons frais.",11.00,,,,Supplément: Mozzarella en plus (+1.50); Champignons (+1.00),https://example.com/photos/reine-grande.jpg,no
+Boissons,Eau minérale 50 cl,,2.00,,,,,,no
+Boissons,Limonade artisanale,'-30 % de sucre par rapport à une limonade classique.,3.00,,,,Parfum (required): Citron; Grenadine (+0.30),,no
+Desserts,Tiramisu maison,"Mascarpone, café, cacao.",5.50,,,,,,yes

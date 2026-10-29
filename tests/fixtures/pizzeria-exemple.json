@@ -1,0 +1,148 @@
+{
+  "id": 1000001,
+  "name": "Carte Pizzeria Exemple",
+  "description": "Carte fictive pour les essais. Aucun restaurant réel.",
+  "currency": "EUR",
+  "default_language": "fr",
+  "languages": ["fr"],
+  "currency_config": {"currency": "EUR", "decimals": 2},
+  "categories": [
+    {
+      "id": 2000003,
+      "name": "Desserts",
+      "description": "",
+      "sort": 2,
+      "groups": [],
+      "items": [
+        {
+          "id": 3000005,
+          "name": "Tiramisu maison",
+          "description": "Mascarpone, café, cacao.",
+          "price": 5.5,
+          "sort": 0,
+          "is_out_of_stock": true,
+          "picture": null,
+          "picture_hi_res": null,
+          "sizes": [],
+          "groups": []
+        }
+      ]
+    },
+    {
+      "id": 2000001,
+      "name": "Pizzas",
+      "description": "Pâte maison, cuisson au feu de bois.",
+      "sort": 0,
+      "groups": [
+        {
+          "id": 4000001,
+          "name": "Supplément",
+          "sort": 0,
+          "required": false,
+          "force_min": 0,
+          "force_max": 3,
+          "allow_quantity": false,
+          "options": [
+            {"id": 5000002, "name": "Champignons", "price": 1, "default": false, "sort": 1, "is_out_of_stock": false},
+            {"id": 5000001, "name": "Mozzarella en plus", "price": 1.5, "default": false, "sort": 0, "is_out_of_stock": false}
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": 3000002,
+          "name": "Reine",
+          "description": "Sauce tomate, mozzarella, jambon, champignons frais.",
+          "price": 11,
+          "sort": 1,
+          "is_out_of_stock": false,
+          "picture": "https://example.com/photos/reine.jpg",
+          "picture_hi_res": "https://example.com/photos/reine-grande.jpg",
+          "sizes": [],
+          "groups": []
+        },
+        {
+          "id": 3000001,
+          "name": "Margherita",
+          "description": "Sauce tomate, mozzarella, basilic.",
+          "price": 9.5,
+          "sort": 0,
+          "is_out_of_stock": false,
+          "picture": "https://example.com/photos/margherita.jpg",
+          "picture_hi_res": null,
+          "sizes": [
+            {"id": 6000001, "name": "Moyenne", "price": 0, "default": true, "groups": []},
+            {
+              "id": 6000002,
+              "name": "Grande",
+              "price": 3,
+              "default": false,
+              "groups": [
+                {
+                  "id": 4000003,
+                  "name": "Bord",
+                  "sort": 0,
+                  "required": false,
+                  "force_min": 0,
+                  "force_max": 1,
+                  "allow_quantity": false,
+                  "options": [
+                    {"id": 5000005, "name": "Bord fromage", "price": 2, "default": false, "sort": 0, "is_out_of_stock": false}
+                  ]
+                }
+              ]
+            }
+          ],
+          "groups": []
+        }
+      ]
+    },
+    {
+      "id": 2000002,
+      "name": "Boissons",
+      "description": "",
+      "sort": 1,
+      "groups": [],
+      "items": [
+        {
+          "id": 3000003,
+          "name": "Eau minérale 50 cl",
+          "description": "",
+          "price": 2,
+          "sort": 0,
+          "is_out_of_stock": false,
+          "picture": null,
+          "picture_hi_res": null,
+          "sizes": [],
+          "groups": []
+        },
+        {
+          "id": 3000004,
+          "name": "Limonade artisanale",
+          "description": "-30 % de sucre par rapport à une limonade classique.",
+          "price": 3,
+          "sort": 1,
+          "is_out_of_stock": false,
+          "picture": null,
+          "picture_hi_res": null,
+          "sizes": [],
+          "groups": [
+            {
+              "id": 4000002,
+              "name": "Parfum",
+              "sort": 0,
+              "required": true,
+              "force_min": 1,
+              "force_max": 1,
+              "allow_quantity": false,
+              "options": [
+                {"id": 5000003, "name": "Citron", "price": 0, "default": true, "sort": 0, "is_out_of_stock": false},
+                {"id": 5000004, "name": "Grenadine", "price": 0.3, "default": false, "sort": 1, "is_out_of_stock": false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
