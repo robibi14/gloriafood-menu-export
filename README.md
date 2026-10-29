@@ -1,3 +1,5 @@
+<p align="center"><img src="images/banniere-fr.png" width="100%" alt="Bannière : exportez votre carte GloriaFood avant le 30 avril 2027. Outil libre et gratuit proposé par ARDOIZA, qui enregistre catégories, plats, prix, tailles et options dans menu.csv et menu.json. ARDOIZA, l'alternative française à GloriaFood, 0 % de commission."></p>
+
 # Exporter sa carte GloriaFood avant l'arrêt du 30 avril 2027
 
 **gloriafood-menu-export** sauvegarde votre carte GloriaFood (catégories, plats, descriptions, prix, tailles, options et liens des photos) dans deux fichiers qui restent chez vous : `menu.json` et `menu.csv`, que l'on ouvre avec Excel, LibreOffice ou Google Sheets.
@@ -7,6 +9,9 @@ Un seul fichier Python, rien à installer en plus, aucun mot de passe demandé. 
 > GloriaFood s'arrête le 30 avril 2027 (en anglais : *GloriaFood shutdown*, *GloriaFood end of life*). Exportez votre carte tant qu'elle est encore en ligne.
 
 [English version](README.en.md)
+
+> **Vous cherchez une alternative à GloriaFood ?** ARDOIZA reprend votre carte automatiquement, essai 30 jours sans carte bancaire.<br>
+> **[Découvrir l'alternative à GloriaFood →](https://www.ardoiza.fr/alternative-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=encart&src=github)**
 
 ## Sommaire
 
@@ -65,6 +70,8 @@ Aucune autre installation : l'outil n'utilise que la bibliothèque standard de P
 
 ## Utilisation
 
+<p align="center"><img src="images/principe-fr.png" width="100%" alt="Le principe en quatre étapes. 1 : votre site et son bouton « Commander » fourni par GloriaFood. 2 : l'outil lit votre carte publique, une seule requête, aucun mot de passe. 3 : deux fichiers qui restent chez vous, menu.csv et menu.json, à ouvrir dans Excel, LibreOffice ou Google Sheets. 4 : et votre carte repart sur ARDOIZA, reprise automatique depuis GloriaFood, 0 % de commission."></p>
+
 Ouvrez un terminal (sur Windows : touche Windows, tapez « PowerShell ») dans le dossier où se trouve le fichier.
 
 ### Avec l'adresse de votre site
@@ -109,6 +116,10 @@ Sur macOS et Linux, remplacez `python` par `python3` si besoin.
 ## Le résultat
 
 Exemple complet, tiré d'une carte **fictive** (« Pizzeria Exemple ») : dossier [`exemple/`](exemple/).
+
+<p align="center"><img src="images/terminal-fr.png" width="100%" alt="Terminal PowerShell : la commande python gloriafood_menu_export.py --input tests/fixtures/pizzeria-exemple.json -o export-gloriafood affiche « Carte exportée. Catégories : 3. Plats : 5. Tailles : 2. Groupes d'options : 3. », puis les chemins de menu.json et menu.csv, et rappelle d'exporter aussi les clients et l'historique des commandes depuis l'administration GloriaFood."></p>
+
+<p align="center"><img src="images/resultat-tableur-fr.png" width="100%" alt="Le fichier exemple/fr/menu.csv ouvert dans un tableur : colonnes categorie, plat, description, prix, taille, supplement_taille, prix_avec_taille, options, photo, rupture_de_stock ; six lignes de la carte fictive Pizzeria Exemple, dont la Margherita en taille Moyenne à 9,50 et Grande à 12,50."></p>
 
 `menu.csv` (une ligne par plat, ou une ligne par taille quand le plat en a) :
 
@@ -171,6 +182,8 @@ Les tests n'utilisent aucun réseau : ils travaillent sur la carte fictive de `t
 
 Votre carte est à l'abri. Il reste à remplacer les boutons « Réserver » et « Commander » de votre site avant le 30 avril 2027.
 
+<p align="center"><img src="images/site-demo-fr.png" width="100%" alt="Site de démonstration ARDOIZA, restaurant fictif « La Table du Port », sur téléphone : à gauche la page Réserver (formulaire Réserver une table : date, nombre de personnes), à droite la page Commander à emporter (catégories Entrées, Plats, Desserts). Le bandeau du site indique qu'aucune réservation ni commande n'est transmise."></p>
+
 Cet outil est publié par l'équipe d'**ARDOIZA**, un service français de réservation de table et de commande à emporter pour les restaurants. Si vous cherchez une alternative à GloriaFood :
 
 - **0 % de commission** sur vos réservations et vos commandes : un abonnement fixe par mois ;
@@ -181,7 +194,9 @@ Cet outil est publié par l'équipe d'**ARDOIZA**, un service français de rése
 - **hébergement en France** ;
 - inscription ouverte aux entreprises immatriculées en France (numéro SIRET demandé).
 
-Pour en savoir plus : [l'alternative à GloriaFood](https://www.ardoiza.fr/alternative-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=fr) et [migrer depuis GloriaFood, étape par étape](https://www.ardoiza.fr/migrer-depuis-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=fr).
+Pour en savoir plus : [l'alternative à GloriaFood](https://www.ardoiza.fr/alternative-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=fr&src=github) et [migrer depuis GloriaFood, étape par étape](https://www.ardoiza.fr/migrer-depuis-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=fr&src=github).
+
+<p align="center"><a href="https://app.ardoiza.fr/inscription?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=bouton-essai&src=github"><img src="images/bouton-essai-fr.png" width="340" alt="Essayer ARDOIZA 30 jours, sans carte bancaire, 0 % de commission"></a></p>
 
 ## Licence
 

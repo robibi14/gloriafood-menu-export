@@ -1,3 +1,4 @@
 * text=auto eol=lf
 # Les CSV gardent leurs fins de ligne CRLF (RFC 4180), octet pour octet.
 *.csv -text
+*.png binary

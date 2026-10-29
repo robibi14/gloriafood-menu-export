@@ -1,3 +1,5 @@
+<p align="center"><img src="images/banner-en.png" width="100%" alt="Banner: export your GloriaFood menu before 30 April 2027. A free and open source tool by ARDOIZA that saves categories, items, prices, sizes and options to menu.csv and menu.json. ARDOIZA, the French alternative to GloriaFood, 0% commission."></p>
+
 # Export your GloriaFood menu before the 30 April 2027 shutdown
 
 **gloriafood-menu-export** saves your GloriaFood menu (categories, items, descriptions, prices, sizes, options and photo links) into two files you keep: `menu.json` and `menu.csv`, which opens in Excel, LibreOffice or Google Sheets.
@@ -7,6 +9,9 @@ A single Python file, nothing else to install, no password needed. MIT licence, 
 > GloriaFood shuts down on 30 April 2027 (GloriaFood end of life). Export your menu while it is still online.
 
 [Version française](README.md)
+
+> **Looking for a GloriaFood alternative?** ARDOIZA imports your menu automatically, 30-day free trial with no bank card needed.<br>
+> **[Discover the GloriaFood alternative →](https://www.ardoiza.fr/en/gloriafood-alternative/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=encart-en&src=github)**
 
 ## Contents
 
@@ -65,6 +70,8 @@ Nothing else to install: the tool only uses the Python standard library.
 
 ## Usage
 
+<p align="center"><img src="images/how-it-works-en.png" width="100%" alt="How it works in four steps. 1: your website and the Order button GloriaFood gave you. 2: the tool reads your public menu, a single request, no password. 3: two files you keep, menu.csv and menu.json, to open in Excel, LibreOffice or Google Sheets. 4: and your menu moves to ARDOIZA, imported automatically from GloriaFood, 0% commission."></p>
+
 Open a terminal (on Windows: Windows key, type "PowerShell") in the folder that holds the file.
 
 ### With your website address
@@ -109,6 +116,10 @@ On macOS and Linux, use `python3` instead of `python` if needed.
 ## The output
 
 Full example from a **fictional** menu ("Pizzeria Exemple"): folder [`exemple/en/`](exemple/en/).
+
+<p align="center"><img src="images/terminal-en.png" width="100%" alt="PowerShell terminal: the command python gloriafood_menu_export.py --input tests/fixtures/pizzeria-exemple.json -o export-en --lang en prints &quot;Menu exported. Categories: 3. Items: 5. Sizes: 2. Option groups: 3.&quot;, then the paths of menu.json and menu.csv, and reminds you to also export your customers and order history from your GloriaFood admin."></p>
+
+<p align="center"><img src="images/result-spreadsheet-en.png" width="100%" alt="The file exemple/en/menu.csv opened in a spreadsheet: columns category, item, description, price, size, size_supplement, price_with_size, options, picture, out_of_stock; six rows of the fictional Pizzeria Exemple menu, including the Margherita in size Moyenne at 9.50 and Grande at 12.50."></p>
 
 `menu.csv` (one row per item, or one row per size when the item has sizes):
 
@@ -168,6 +179,8 @@ The tests use no network: they run on the fictional menu in `tests/fixtures/`.
 
 Your menu is safe. What is left is replacing the "Book" and "Order" buttons on your website before 30 April 2027.
 
+<p align="center"><img src="images/demo-site-en.png" width="100%" alt="ARDOIZA demo website, fictional restaurant &quot;La Table du Port&quot;, on a phone: on the left the booking page (Book a table form: date, number of guests), on the right the takeaway ordering page (categories Entrées, Plats, Desserts). The site banner says no booking or order is sent. Pages shown in French."></p>
+
 This tool is published by the team behind **ARDOIZA**, a French table booking and takeaway ordering service for restaurants. If you are looking for a GloriaFood alternative:
 
 - **0% commission** on your bookings and orders: a fixed monthly subscription;
@@ -178,7 +191,9 @@ This tool is published by the team behind **ARDOIZA**, a French table booking an
 - **hosted in France**;
 - sign-up open to businesses registered in France (SIRET number required).
 
-Learn more: [the GloriaFood alternative](https://www.ardoiza.fr/en/gloriafood-alternative/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=en) and [migrating from GloriaFood, step by step](https://www.ardoiza.fr/en/migrate-from-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=en).
+Learn more: [the GloriaFood alternative](https://www.ardoiza.fr/en/gloriafood-alternative/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=en&src=github) and [migrating from GloriaFood, step by step](https://www.ardoiza.fr/en/migrate-from-gloriafood/?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=en&src=github).
+
+<p align="center"><a href="https://app.ardoiza.fr/inscription?lang=en&utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=bouton-essai-en&src=github"><img src="images/button-trial-en.png" width="330" alt="Try ARDOIZA for 30 days, no bank card needed, 0% commission"></a></p>
 
 ## Licence
 
