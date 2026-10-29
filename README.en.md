@@ -195,6 +195,8 @@ Learn more: [the GloriaFood alternative](https://www.ardoiza.fr/en/gloriafood-al
 
 <p align="center"><a href="https://app.ardoiza.fr/inscription?lang=en&utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=bouton-essai-en&src=github"><img src="images/button-trial-en.png" width="330" alt="Try ARDOIZA for 30 days, no bank card needed, 0% commission"></a></p>
 
+See it all in pictures (demo website, app, plans): [github.com/robibi14/gloriafood-alternative](https://github.com/robibi14/gloriafood-alternative).
+
 ## Licence
 
 [MIT](LICENSE), copyright 2026 ARDOIZA. You may use, copy, modify and redistribute this tool freely, including for commercial use.

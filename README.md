@@ -198,6 +198,8 @@ Pour en savoir plus : [l'alternative à GloriaFood](https://www.ardoiza.fr/alter
 
 <p align="center"><a href="https://app.ardoiza.fr/inscription?utm_source=github&utm_medium=readme&utm_campaign=gloriafood-menu-export&utm_content=bouton-essai&src=github"><img src="images/bouton-essai-fr.png" width="340" alt="Essayer ARDOIZA 30 jours, sans carte bancaire, 0 % de commission"></a></p>
 
+Pour tout voir en images (captures du site de démonstration, application, offres) : [github.com/robibi14/gloriafood-alternative](https://github.com/robibi14/gloriafood-alternative).
+
 ## Licence
 
 [MIT](LICENSE), copyright 2026 ARDOIZA. Vous pouvez utiliser, copier, modifier et redistribuer cet outil librement, y compris pour un usage commercial.
